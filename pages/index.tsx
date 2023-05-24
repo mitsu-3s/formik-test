@@ -1,5 +1,3 @@
-// useState Hookを利用した通常のフォーム
-
 import { useState } from 'react'
 import axios from 'axios'
 
