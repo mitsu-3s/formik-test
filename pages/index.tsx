@@ -7,7 +7,7 @@ const Form = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-        console.log({
+        console.log('priventDefault', {
             email,
             password,
         })
@@ -19,7 +19,7 @@ const Form = () => {
 
         try {
             const response = axios.post('/api/create', data)
-            console.log(response)
+            console.log('response', response)
         } catch (error) {
             console.error(error)
         }
